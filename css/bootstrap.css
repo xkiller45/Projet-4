@@ -1784,8 +1784,8 @@ a.bg-danger:hover {
 
 ol,
 ul {
-    margin-top: 0;
-    margin-bottom: 10px
+    margin-bottom: 10px;
+    list-style: none;
 }
 
 ol ol,
@@ -2012,7 +2012,26 @@ pre code {
 
 .row {
     margin-right: -15px;
-    margin-left: -15px
+    margin-left: -15px;
+}
+
+.row__footer {
+    display: flex;
+    justify-content: center;
+}
+
+.partner {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ul__footer {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .col-lg-1,
@@ -7682,10 +7701,10 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #0009;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #fff;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .carousel-indicators .active {
