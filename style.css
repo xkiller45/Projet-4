@@ -443,6 +443,10 @@ nav .caret {
     margin-bottom: 20px;
 }
 
+.color-text {
+    color: #F3976C!important;
+}
+
 .mg-lg {
     margin-top: 10px;
     margin-bottom: 40px;
@@ -705,6 +709,7 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    margin-bottom: 30px;
 }
 
 h2 {
@@ -742,6 +747,10 @@ h4 {
     color: #FFFFFF!important;
 }
 
+.brown {
+    color: #692B2B!important;
+}
+
 .portfolio-thumb {
     margin-bottom: 24px;
 }
@@ -756,8 +765,9 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #692B2B;
     padding: 40px 40px 40px 40px;
+    border-radius: 35px;
 }
 
 .bold-link {
@@ -778,11 +788,11 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #692B2B;
     color: #FFFFFF!important;
 }
 
@@ -851,18 +861,6 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
-    .b-parallax {
-        background-attachment: scroll;
-    }
-}
-
 @media (max-width: 991px) {
     .container {
         width: 100%;
@@ -875,10 +873,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -887,8 +881,6 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
     }
 }
 
